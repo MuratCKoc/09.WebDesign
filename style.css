@@ -1,3 +1,9 @@
+/*-- Background --*/
+body {
+    background-color: rgb(237,237,237);
+
+}
+
 /*--- Top Bar ---*/ 
 #topbar {
     background: #106eea;
@@ -68,6 +74,10 @@
     font-size: 60px;
     font-weight: 500
 }
+.navbar {
+    background-color: #fff;
+}
+
 
 /*-- Footer --*/
 #footer {
@@ -81,6 +91,12 @@
 #footer .copyright {
     text-align: center;
     float: left;
+}
+
+/*-- Cards --*/
+.card {
+    padding: 0px !important;
+    background-color: #fff !important;
 }
 
 .card-title{
@@ -97,14 +113,5 @@
 .card-body{
     color: black;
     padding: 15px 5px 10px 5px !important;
+    
 }
-/**
-.footer {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: #444444;
-    font-size: 14px;
-    background: #f1f6fe;
-}
-*/
