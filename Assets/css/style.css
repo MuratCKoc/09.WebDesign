@@ -6,7 +6,7 @@ body {
 
 /*--- Top Bar ---*/ 
 #topbar {
-    background: #106eea;
+    background: rgb(243, 4, 4);
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -66,13 +66,14 @@ body {
 }
 
 /*--- NavBar ---*/
+
 .navbar-brand{
     color: #fce8e8 !important;
-    background: rgb(90, 170, 165);
-    font-family: 'Rochester',cursive;
+    background: rgb(243, 4, 4);
+    font-family: 'Roboto', sans-serif;
     letter-spacing: .2rem;
     font-size: 60px;
-    font-weight: 500
+    font-weight: 700
 }
 .navbar {
     background-color: #fff;
@@ -82,9 +83,9 @@ body {
 /*-- Footer --*/
 #footer {
     padding: 0 0 30px 0;
-    color: #444444;
+    color: #fff;
     font-size: 14px;
-    background: #f1f6fe;
+    background: rgb(243, 4, 4);
     text-align: center;
 }
 
@@ -103,7 +104,8 @@ body {
     padding: 20px 5px 10px 5px;
     font-weight: 500;
     font: 2rem;
-    color: rgb(90, 170, 165);
+    color: #f30404;
+    text-align: center;
 }
 
 .card-liner{
@@ -114,4 +116,12 @@ body {
     color: black;
     padding: 15px 5px 10px 5px !important;
     
+}
+
+h4 .card-title{
+    text-align: center !important;
+}
+
+.active{
+    border: solid 3px #f30404;
 }
